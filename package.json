@@ -3,8 +3,8 @@
     "private": true,
     "type": "module",
     "scripts": {
-      "build": "npx tailwindcss -i ./assets/input.css -o ./src/main.css",
-      "watch": "npx tailwindcss -i ./assets/input.css -o ./src/main.css --watch"
+      "build": "npx tailwindcss -i ./assets/css/input.css -o ./src/main.css",
+      "watch": "npx tailwindcss -i ./assets/css/input.css -o ./src/main.css --watch"
     },
     "devDependencies": {
         "tailwindcss": "^3.3.5"
