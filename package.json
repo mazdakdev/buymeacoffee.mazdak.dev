@@ -1,0 +1,12 @@
+{
+    "name": "buymeacoffee",
+    "private": true,
+    "type": "module",
+    "scripts": {
+      "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.3.5"
+    }
+  }
+  
