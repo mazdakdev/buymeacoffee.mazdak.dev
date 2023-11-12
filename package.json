@@ -3,7 +3,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-      "build": "npx tailwindcss -i ./assets/css/input.css -o ./src/main.css",
+      "build": "npx tailwindcss -i ./assets/css/input.css -o ./src/main.css && cp -r ./assets/images ./src",
       "watch": "npx tailwindcss -i ./assets/css/input.css -o ./src/main.css --watch"
     },
     "devDependencies": {
